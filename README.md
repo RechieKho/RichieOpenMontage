@@ -7,7 +7,7 @@
 
 <p align="center"><sub><em>Monty the Clapper — the official mascot of OpenMontage</em></sub></p>
 
-<h1 align="center">OpenMontage</h1>
+<h1 align="center">Richie's OpenMontage</h1>
 
 <p align="center"><strong>The first open-source, agentic video production system.</strong></p>
 
@@ -24,7 +24,9 @@
   <a href="#sponsors">Sponsors</a> &nbsp;·&nbsp;
   <a href="docs/PROVIDERS.md">Providers</a> &nbsp;·&nbsp;
   <a href="docs/PR_REVIEW_GUIDE.md">Review Guide</a> &nbsp;·&nbsp;
-  <a href="AGENT_GUIDE.md">Agent Guide</a>
+  <a href="AGENT_GUIDE.md">Agent Guide</a> &nbsp;·&nbsp;
+  <a href="#about-this-fork">About This Fork</a> &nbsp;·&nbsp;
+  <a href="UPGRADE.md">Upgrade Guide</a>
 </p>
 
 <p align="center">
@@ -47,6 +49,16 @@
   <a href="https://x.com/calesthioailabs"><img src="https://img.shields.io/badge/X-%40calesthioailabs-111111?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
   <a href="https://github.com/calesthio/OpenMontage/discussions"><img src="https://img.shields.io/badge/Community-GitHub%20Discussions-0b1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Discussions"></a>
 </p>
+
+## About This Fork
+
+This repository is **RichieKho's personal fork** of the original [OpenMontage](https://github.com/calesthio/OpenMontage) project, specialized for individual needs and workflows. It diverges from upstream in places, but the connection to the original is preserved intentionally:
+
+- `origin` points to this fork (the only remote hosted on GitHub for this repository).
+- A `parent` git remote and `parent-main` tracking branch are **local-only constructs set up by the agent** in each local clone — they are not a GitHub/cloud-hosted remote or branch, and won't appear on github.com. They simply point this local repo's git config back to the original upstream repo (`calesthio/OpenMontage`) so improvements made there aren't lost.
+- Periodic **upgrades** pull upstream's latest commits via that local `parent` remote and merge them into this fork's `main`, keeping local specialization while incorporating upstream fixes/features.
+
+See [`UPGRADE.md`](UPGRADE.md) for the full upgrade procedure (including one-time setup if the `parent` remote/branch is ever missing).
 
 ## Sponsors
 
