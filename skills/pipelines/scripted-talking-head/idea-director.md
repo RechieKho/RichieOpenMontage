@@ -22,10 +22,10 @@ shooting script.
 ## Runtime Selection (MANDATORY — present the constraint, don't silently pick)
 
 Lock `render_runtime = "remotion"` (preferred — uses `TalkingHead` + `remotion_caption_burn`)
-or `"ffmpeg"` (for source-footage concat with no composition). HyperFrames is not a valid
+or `"ffmpeg"` (for source-footage concat with no composition). `hyperframes` is not a valid
 runtime on this pipeline family — the TalkingHead composition and word-level caption burn
 have no HyperFrames parity. Per AGENT_GUIDE.md → "Present Both Composition Runtimes (HARD
-RULE)": tell the user HyperFrames exists but isn't viable here, and log the rejection in
+RULE)": tell the user `hyperframes` exists but isn't viable here, and log the rejection in
 `render_runtime_selection`.
 
 ## Process
