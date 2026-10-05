@@ -375,6 +375,7 @@ Each pipeline is a complete production workflow, from idea to finished video.
 | **Localization & Dub** | Subtitle, dub, and translate existing video | Multi-language distribution |
 | **Podcast Repurpose** | Podcast highlights to video | Podcast marketing, audiogram videos |
 | **Screen Demo** | Polished software screen recordings and walkthroughs | Product demos, tutorials, documentation |
+| **Scripted Talking Head** | Idea-first speaker videos — brief and shooting script written before recording, footage reconciled against the plan once delivered | Write-then-perform workflows (PNGtuber/avatar recordings, scripted vlogs, planned announcements) |
 | **Talking Head** | Footage-led speaker videos | Presentations, vlogs, interviews |
 
 Every pipeline follows the same structured flow:

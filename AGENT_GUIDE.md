@@ -246,7 +246,8 @@ If the folder has tracks, the proposal and asset stages should present them as o
 | Pipeline | Best For | Stability |
 |----------|----------|-----------|
 | `animated-explainer` | Topic to fully generated explainer | production |
-| `talking-head` | Footage-led speaker videos | beta |
+| `talking-head` | Footage-led speaker videos (brief extracted from existing footage) | beta |
+| `scripted-talking-head` | Idea-first speaker videos (brief + shooting script written before recording; footage reconciled against the plan once recorded) | beta |
 | `screen-demo` | Screen recordings and walkthroughs | production |
 | `clip-factory` | Many clips from one long source | beta |
 | `podcast-repurpose` | Podcast highlights and derivatives | beta |
